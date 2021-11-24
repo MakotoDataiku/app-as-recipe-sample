@@ -53,7 +53,7 @@
     ],
     "outputRoles": [
       {
-        "objectId": "transactions_joined",
+        "objectId": "transactions_joined_scored",
         "roleLabel": "joined transactions data",
         "type": "DATASET"
       }
