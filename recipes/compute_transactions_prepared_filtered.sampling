@@ -1,4 +1,16 @@
 {
+  "uiData": {
+    "mode": "\u0026\u0026",
+    "conditions": [
+      {
+        "input": "purchase_date_parsed_month",
+        "col": "authorized_flag",
+        "num": 12,
+        "operator": "\u003d\u003d [number]"
+      }
+    ]
+  },
+  "$status": {},
   "distinct": false,
-  "enabled": false
+  "enabled": true
 }
