@@ -3,10 +3,10 @@
     "mode": "\u0026\u0026",
     "conditions": [
       {
-        "input": "purchase_date_parsed_month",
+        "input": "purchase_amount",
         "col": "authorized_flag",
-        "num": 12,
-        "operator": "\u003d\u003d [number]"
+        "num": 100,
+        "operator": "\u003c  [number]"
       }
     ]
   },
