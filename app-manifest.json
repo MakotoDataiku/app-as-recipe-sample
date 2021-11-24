@@ -109,7 +109,10 @@
         }
       ]
     },
-    "runScenarioTile": {}
+    "runScenarioTile": {
+      "scenarioId": "run_flow",
+      "buttonText": "Run now"
+    }
   },
   "instantiationPermission": "EVERYBODY"
 }
