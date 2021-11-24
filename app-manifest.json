@@ -10,7 +10,16 @@
     "exportManagedFolders": false,
     "exportAllInputManagedFolders": false,
     "exportInsightsData": false,
-    "includedDatasetsData": [],
+    "includedDatasetsData": [
+      {
+        "name": "merchant_info",
+        "type": "PostgreSQL"
+      },
+      {
+        "name": "cardholder_info",
+        "type": "PostgreSQL"
+      }
+    ],
     "includedSavedModels": [],
     "includedManagedFolders": [],
     "includedModelEvaluationStores": [],
@@ -30,8 +39,20 @@
   "tags": [],
   "useAsRecipeSettings": {
     "icon": "icon-dku-application-as-recipe",
-    "inputRoles": [],
-    "outputRoles": [],
+    "inputRoles": [
+      {
+        "objectId": "transactions",
+        "roleLabel": "Input",
+        "type": "DATASET"
+      }
+    ],
+    "outputRoles": [
+      {
+        "objectId": "transactions_joined",
+        "roleLabel": "Output",
+        "type": "DATASET"
+      }
+    ],
     "variablesEditionTile": {
       "behavior": "MODAL",
       "params": [
@@ -90,5 +111,5 @@
     },
     "runScenarioTile": {}
   },
-  "instantiationPermission": "USE_APP_MASTER_PERMISSIONS"
+  "instantiationPermission": "EVERYBODY"
 }
