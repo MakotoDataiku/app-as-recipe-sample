@@ -20,7 +20,12 @@
         "type": "PostgreSQL"
       }
     ],
-    "includedSavedModels": [],
+    "includedSavedModels": [
+      {
+        "id": "YNV0B7iy",
+        "name": "Predict authorized_flag (binary)"
+      }
+    ],
     "includedManagedFolders": [],
     "includedModelEvaluationStores": [],
     "exportGitRepository": false
