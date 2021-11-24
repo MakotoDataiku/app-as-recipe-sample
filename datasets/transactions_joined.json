@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637745365743
+    "lastModifiedOn": 1637745931262
   },
   "creationTag": {
     "versionNumber": 0,
@@ -111,19 +111,40 @@
         "type": "bigint"
       },
       {
-        "name": "subsector_description",
-        "type": "string",
-        "originalType": "text"
+        "name": "merchant_subsector_description",
+        "type": "string"
       },
       {
-        "name": "latitude",
-        "type": "double",
-        "originalType": "float8"
+        "name": "merchant_latitude",
+        "type": "double"
       },
       {
-        "name": "longitude",
-        "type": "double",
-        "originalType": "float8"
+        "name": "merchant_longitude",
+        "type": "double"
+      },
+      {
+        "name": "card_first_active_month",
+        "type": "string"
+      },
+      {
+        "name": "card_reward_program",
+        "type": "string"
+      },
+      {
+        "name": "card_latitude",
+        "type": "double"
+      },
+      {
+        "name": "card_longitude",
+        "type": "double"
+      },
+      {
+        "name": "card_fico_score",
+        "type": "bigint"
+      },
+      {
+        "name": "card_age",
+        "type": "bigint"
       }
     ],
     "userModified": true
