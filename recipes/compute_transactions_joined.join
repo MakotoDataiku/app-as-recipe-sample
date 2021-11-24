@@ -218,14 +218,7 @@
   },
   "virtualInputs": [
     {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "autoSelectColumns": false,
-      "originLabel": "transactions_prepared",
-      "index": 0,
-      "computedColumns": []
+      "index": 2
     },
     {
       "preFilter": {
@@ -235,12 +228,12 @@
       "autoSelectColumns": false,
       "originLabel": "merchant_info",
       "prefix": "merchant",
-      "index": 1,
+      "index": 0,
       "computedColumns": []
     },
     {
       "prefix": "card",
-      "index": 2
+      "index": 1
     }
   ],
   "computedColumns": [],
