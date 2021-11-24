@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637745264511
+    "lastModifiedOn": 1637745297099
   },
   "creationTag": {
     "versionNumber": 0,
@@ -69,6 +69,22 @@
       {
         "name": "purchase_date",
         "type": "string"
+      },
+      {
+        "name": "purchase_date_parsed",
+        "type": "date"
+      },
+      {
+        "name": "purchase_date_parsed_year",
+        "type": "bigint"
+      },
+      {
+        "name": "purchase_date_parsed_month",
+        "type": "bigint"
+      },
+      {
+        "name": "purchase_date_parsed_day",
+        "type": "bigint"
       },
       {
         "name": "card_id",
