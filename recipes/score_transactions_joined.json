@@ -26,7 +26,7 @@
     "main": {
       "items": [
         {
-          "ref": "joined_1",
+          "ref": "transactions_joined",
           "deps": []
         }
       ]
@@ -44,11 +44,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1639657674921
+    "lastModifiedOn": 1639657912314
   },
   "creationTag": {
     "versionNumber": 0,
