@@ -5,18 +5,18 @@
   "name": "run flow",
   "active": false,
   "creationTag": {
-    "versionNumber": 5,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1637749069442
-  },
-  "versionTag": {
     "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1639657718361
+  },
+  "versionTag": {
+    "versionNumber": 7,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1639657923189
   },
   "checklists": {
     "checklists": []
@@ -113,7 +113,7 @@
         "id": "build_0_true_d_joined_1",
         "type": "build_flowitem",
         "name": "joined_1",
-        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionType": "DISABLED",
         "runConditionStatuses": [
           "SUCCESS",
           "WARNING"
