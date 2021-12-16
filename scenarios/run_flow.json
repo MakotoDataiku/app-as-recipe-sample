@@ -1,22 +1,22 @@
 {
-  "projectKey": "APPASRECIPESAMPLE",
+  "projectKey": "APP_AS_RECIPE_SAMPLE_EXPERIMENT",
   "id": "run_flow",
   "type": "step_based",
   "name": "run flow",
   "active": false,
   "creationTag": {
-    "versionNumber": 10,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1639658924227
-  },
-  "versionTag": {
     "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1639658934363
+  },
+  "versionTag": {
+    "versionNumber": 12,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1639660142795
   },
   "checklists": {
     "checklists": []
@@ -71,13 +71,7 @@
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
         "params": {
-          "builds": [
-            {
-              "type": "DATASET",
-              "itemId": "transactions_prepared_filtered",
-              "partitionsSpec": ""
-            }
-          ],
+          "builds": [],
           "jobType": "RECURSIVE_BUILD",
           "refreshHiveMetastore": true,
           "proceedOnFailure": false
