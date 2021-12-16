@@ -5,15 +5,17 @@
     "pipelineAllowStart": true
   },
   "backendType": "PY_MEMORY",
-  "filterInputColumns": false,
+  "filterInputColumns": true,
   "mlFlowOutputStyle": "RAW",
   "useGPU": false,
   "pythonBatchSize": 100000,
-  "keptInputColumns": [],
+  "keptInputColumns": [
+    "transaction_id"
+  ],
   "gpuAllowGrowth": false,
   "outputProbaPercentiles": false,
   "outputProbabilities": true,
-  "forceOriginalEngine": true,
+  "forceOriginalEngine": false,
   "individualExplanationParams": {
     "drawInScoredSet": false,
     "subChunkSize": 5000,
@@ -23,7 +25,7 @@
   },
   "forcedClassifierThreshold": 0,
   "batchSize": 100,
-  "outputExplanations": true,
+  "outputExplanations": false,
   "overrideModelSpecifiedThreshold": false,
   "sparkParams": {
     "pipelineAllowMerge": true,
