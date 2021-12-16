@@ -44,6 +44,7 @@
   "tags": [],
   "useAsRecipeSettings": {
     "icon": "icon-dku-application-as-recipe",
+    "category": "credit card fraud",
     "inputRoles": [
       {
         "objectId": "transactions",
@@ -54,7 +55,7 @@
     "outputRoles": [
       {
         "objectId": "transactions_joined_scored",
-        "roleLabel": "joined transactions data",
+        "roleLabel": "scored transactions data",
         "type": "DATASET"
       }
     ],
