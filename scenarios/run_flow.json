@@ -5,18 +5,18 @@
   "name": "run flow",
   "active": false,
   "creationTag": {
-    "versionNumber": 4,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1637748592656
-  },
-  "versionTag": {
     "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1637749069442
+  },
+  "versionTag": {
+    "versionNumber": 6,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1639657718361
   },
   "checklists": {
     "checklists": []
@@ -101,6 +101,32 @@
             {
               "type": "DATASET",
               "itemId": "transactions_joined",
+              "partitionsSpec": ""
+            }
+          ],
+          "jobType": "RECURSIVE_BUILD",
+          "refreshHiveMetastore": true,
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "build_0_true_d_joined_1",
+        "type": "build_flowitem",
+        "name": "joined_1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "builds": [
+            {
+              "type": "DATASET",
+              "itemId": "joined_1",
               "partitionsSpec": ""
             }
           ],
