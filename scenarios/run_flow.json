@@ -5,18 +5,18 @@
   "name": "run flow",
   "active": false,
   "creationTag": {
-    "versionNumber": 6,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1639657718361
-  },
-  "versionTag": {
     "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1639657923189
+  },
+  "versionTag": {
+    "versionNumber": 8,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1639657931079
   },
   "checklists": {
     "checklists": []
@@ -123,13 +123,7 @@
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
         "params": {
-          "builds": [
-            {
-              "type": "DATASET",
-              "itemId": "joined_1",
-              "partitionsSpec": ""
-            }
-          ],
+          "builds": [],
           "jobType": "RECURSIVE_BUILD",
           "refreshHiveMetastore": true,
           "proceedOnFailure": false
