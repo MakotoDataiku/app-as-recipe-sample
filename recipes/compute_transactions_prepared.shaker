@@ -76,7 +76,7 @@
           "item_category"
         ],
         "values": [
-          "A"
+          "B"
         ],
         "matchingMode": "FULL_STRING",
         "action": "KEEP_ROW",
