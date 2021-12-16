@@ -21,7 +21,7 @@
           "deps": []
         },
         {
-          "ref": "transactions_prepared_filtered",
+          "ref": "transactions_prepared",
           "deps": []
         }
       ]
@@ -39,11 +39,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1639647150700
+    "lastModifiedOn": 1639659996038
   },
   "creationTag": {
     "versionNumber": 0,

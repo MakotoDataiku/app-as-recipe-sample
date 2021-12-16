@@ -136,8 +136,7 @@
       }
     }
   },
-  "name": "app-as-recipe sample",
-  "projectStatus": "Sandbox",
+  "name": "app-as-recipe sample (experiment)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -193,11 +192,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1639659760203
+    "lastModifiedOn": 1639659817919
   },
   "creationTag": {
     "versionNumber": 0,
@@ -206,8 +205,10 @@
     },
     "lastModifiedOn": 1637745192983
   },
-  "shortDesc": "The project *app-as-recipe sample* was created by Makoto Miyazaki on Nov 24th 2021",
-  "tags": [],
+  "shortDesc": "The project *app-as-recipe sample* was created by Makoto Miyazaki on Nov 24th 2021\nThe project *APP_AS_RECIPE_SAMPLE_EXPERIMENT* was copied from *APPASRECIPESAMPLE* by Makoto Miyazaki on Dec 16th 2021",
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
