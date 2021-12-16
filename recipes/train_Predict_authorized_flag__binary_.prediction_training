@@ -78,7 +78,7 @@
     "algorithm": "LOGISTIC_REGRESSION",
     "gridLength": 5
   },
-  "generatingModelId": "A-APPASRECIPESAMPLE-980k6umn-KdITpWiv-s1-pp1-m1",
+  "generatingModelId": "A-APPASRECIPESAMPLE-980k6umn-KdITpWiv-s2-pp1-m1",
   "preprocessing": {
     "reduce": {
       "kept_variance": 0.0,
@@ -113,29 +113,6 @@
         "state": {
           "autoModifiedByDSS": false,
           "recordedMeaning": "LongMeaning",
-          "userModified": false
-        },
-        "impute_constant_value": 0.0
-      },
-      "merchant_latitude": {
-        "rescaling": "AVGSTD",
-        "missing_impute_with": "MEAN",
-        "role": "INPUT",
-        "sendToInput": "main",
-        "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
-        "type": "NUMERIC",
-        "binarize_threshold_mode": "MEDIAN",
-        "datetime_cyclical_periods": [],
-        "customProcessorWantsMatrix": false,
-        "quantile_bin_nb_bins": 4,
-        "generate_derivative": false,
-        "missing_handling": "IMPUTE",
-        "keep_regular": false,
-        "numerical_handling": "REGULAR",
-        "state": {
-          "autoModifiedByDSS": false,
-          "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
         "impute_constant_value": 0.0
@@ -430,29 +407,6 @@
         "impact_m": 10,
         "category_handling": "DUMMIFY",
         "frequency_default_mode": "EXPLICIT"
-      },
-      "merchant_longitude": {
-        "rescaling": "AVGSTD",
-        "missing_impute_with": "MEAN",
-        "role": "INPUT",
-        "sendToInput": "main",
-        "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
-        "type": "NUMERIC",
-        "binarize_threshold_mode": "MEDIAN",
-        "datetime_cyclical_periods": [],
-        "customProcessorWantsMatrix": false,
-        "quantile_bin_nb_bins": 4,
-        "generate_derivative": false,
-        "missing_handling": "IMPUTE",
-        "keep_regular": false,
-        "numerical_handling": "REGULAR",
-        "state": {
-          "autoModifiedByDSS": false,
-          "recordedMeaning": "DoubleMeaning",
-          "userModified": false
-        },
-        "impute_constant_value": 0.0
       },
       "purchase_date_parsed_year": {
         "role": "REJECT",
@@ -801,14 +755,6 @@
         "type": "string"
       },
       {
-        "name": "merchant_latitude",
-        "type": "double"
-      },
-      {
-        "name": "merchant_longitude",
-        "type": "double"
-      },
-      {
         "name": "card_first_active_month",
         "type": "string"
       },
@@ -836,6 +782,7 @@
     "userModified": false
   },
   "script": {
+    "contextProjectKey": "APPASRECIPESAMPLE",
     "columnsSelection": {
       "mode": "ALL"
     },
@@ -992,7 +939,7 @@
   },
   "operationMode": "TRAIN_SPLITTED_ONLY",
   "partSource": "ACTIVE_VERSION",
-  "modelVersionNamePrefix": "Logistic Regression (s1)",
+  "modelVersionNamePrefix": "Logistic Regression (s2)",
   "assertionsParams": {
     "assertions": []
   },

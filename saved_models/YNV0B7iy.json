@@ -4,7 +4,7 @@
   "rebuildBehavior": "EXPLICIT",
   "name": "Predict authorized_flag (binary)",
   "contentType": "prediction/py_memory",
-  "activeVersion": "initial",
+  "activeVersion": "1639650770448",
   "conditionalOutputs": [],
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -16,7 +16,7 @@
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
   },
-  "lastExportedFrom": "A-APPASRECIPESAMPLE-980k6umn-KdITpWiv-s1-pp1-m1",
+  "lastExportedFrom": "A-APPASRECIPESAMPLE-980k6umn-KdITpWiv-s2-pp1-m1",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -2153,11 +2153,11 @@
   "lastTrainIndex": 1,
   "lastTrainJobId": "",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637749009945
+    "lastModifiedOn": 1639650770663
   },
   "creationTag": {
     "versionNumber": 0,
