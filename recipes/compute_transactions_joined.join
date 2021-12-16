@@ -141,16 +141,6 @@
       "table": 1
     },
     {
-      "name": "latitude",
-      "type": "double",
-      "table": 1
-    },
-    {
-      "name": "longitude",
-      "type": "double",
-      "table": 1
-    },
-    {
       "name": "first_active_month",
       "type": "string",
       "table": 2
@@ -297,16 +287,6 @@
             "originalType": "text",
             "name": "merchant_subsector_description",
             "type": "string"
-          },
-          {
-            "originalType": "float8",
-            "name": "merchant_latitude",
-            "type": "double"
-          },
-          {
-            "originalType": "float8",
-            "name": "merchant_longitude",
-            "type": "double"
           },
           {
             "originalType": "text",
