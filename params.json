@@ -137,7 +137,6 @@
     }
   },
   "name": "app-as-recipe sample",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -193,11 +192,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1639659760203
+    "lastModifiedOn": 1639659812043
   },
   "creationTag": {
     "versionNumber": 0,
@@ -207,7 +206,9 @@
     "lastModifiedOn": 1637745192983
   },
   "shortDesc": "The project *app-as-recipe sample* was created by Makoto Miyazaki on Nov 24th 2021",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
