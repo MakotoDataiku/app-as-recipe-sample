@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637745931262
+    "lastModifiedOn": 1639647150535
   },
   "creationTag": {
     "versionNumber": 0,
@@ -113,14 +113,6 @@
       {
         "name": "merchant_subsector_description",
         "type": "string"
-      },
-      {
-        "name": "merchant_latitude",
-        "type": "double"
-      },
-      {
-        "name": "merchant_longitude",
-        "type": "double"
       },
       {
         "name": "card_first_active_month",
